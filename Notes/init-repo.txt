@@ -1,0 +1,34 @@
+CREATE remote GitHub REPO horiseon with nothing in it
+
+USYD-VIRT-FSF-PT-07-2022-U-LOLC git:(main) git pull
+
+COPY folder 02-Challenge to WORKING FOLDER:
+/Users/seanus/syduni/Week01Day02/USYD-VIRT-seans-activities/01-HTML-Git-CSS/02-Challenge
+
+CD /Users/seanus/syduni/Week01Day02/USYD-VIRT-seans-activities/01-HTML-Git-CSS/02-Challenge
+
+seanus ➜  02-Challenge> 
+git init
+
+seanus ➜  02-Challenge git:(main) ✗> 
+git add -A
+
+NOTE!!! ✗ means there is an issue with this folder
+
+
+seanus ➜  02-Challenge git:(main) ✗>
+git commit -m "initialise repo with original source material"
+
+
+seanus ➜  02-Challenge git:(main) ✗>
+git branch -M main
+
+
+seanus ➜  02-Challenge git:(main) ✗>
+git remote add origin git@github.com:SeanU2022/horiseon.git
+
+
+seanus ➜  02-Challenge git:(main) ✗>
+git push -u origin main
+
+

@@ -1,32 +1,30 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Code Refactor Opportunity
 
-## Challenges in This Course
+## How the mock Horiseon Website was made more accessible. 
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+The Horiseon Landing Page presented had a number of technical issues that needed to be addressed to allow for Search Engine Optimisation and to allow for an increase in accessibility.
 
-### Challenge Types 
+### The Challenge
 
-The two types of Challenges are the following:
 
-* **On-the-job ticket** or **feature request Challenges** give you starter code in a folder called `Develop`, which you'll modify to complete the Challenge. Odd-numbered modules follow this format.
+* **Clean up the code** Refactor existing code so that Horiseons' website was more accessible.  As an online marketing agency this accessibility is a critical success factor before they are willing take the next step with search engine market leaders such as Google and Bing.
 
-* **Job-seeking coding assessments** or **take-home assignments** don't provide starter code. You'll build these from scratch. Even-numbered modules follow this format.
+* **Improve the codebase for long-term sustainability** Ensure all links function correctly, CSS selectors and properties get consolidated, organise HTML elements to follow a logical semantic structure, and comment appropriately.
 
-### Challenge Elements
+* **More accessibility** Increase web accessibility, with minimal impact on the source code, so that people with disabilities can access this website using assistive technologies (for that: video captions, screen readers, and braille keyboards).
 
-Challenges adhere to a format that's commonly used by software development teams that use **agile project management** to manage their work. Practicing this will prepare you for the workflows you'll experience as a professional full-stack web developer. 
+* **Limited Budget** This task had to be completed quickly because Horiseon had a deadline to avoid litigation; which might arise if people with disabilities continue to be unable to access websites.
 
-> **Deep Dive**: To learn more about agile, read this [Wikipedia article on agile software development](https://en.wikipedia.org/wiki/Agile_software_development).
+### The Outcome
 
-Each Challenge contains the following elements:
+With the technical skills gained I was able to meet the criteria for the challenge.  As you will see n the codebase: all links are working, sematic elements have been applied with a sructure to maximise SEO, CSS has been reduced by 30%, and for longevity commentary has been added to make future updates not only possilble but easy to implement.  This was completed under budget (ie early).
 
-* **User Story**: This is a short, simple description of a feature told from the perspective of the person who is requesting the new capability, usually a user or customer of the system. This follows an AS AN / I WANT / SO THAT format. For example, "AS A shopper visiting an online store, I WANT to place items in a shopping cart, SO THAT I can purchase them." 
+* **Acceptance Criteria**: These are the requirements that you must meet to satisfy the scope of work. They are not exhaustive, but they do entail the minimum aspects of a working solution. Consider this a checklist of baseline requirements. Acceptance criteria can be presented in various ways. In this case, we'll use a common format called **scenario-oriented criteria** . 
 
-* **Acceptance Criteria**: These are the requirements that you must meet to satisfy the scope of work. They are not exhaustive, but they do entail the minimum aspects of a working solution. Consider this a checklist of baseline requirements. Acceptance criteria can be presented in various ways. In this case, we'll use a common format called **scenario-oriented criteria** which expresses each requirement in a WHEN / THEN format. Don't worry if this doesn't make sense now; it will become very familiar to you after you complete a couple of Challenges. 
 
 * **Mock-up**: This is an image or animation that demonstrates the design and functionality of the web application that you'll build for the Challenge.
 
-* **Submission**: You'll submit your completed Challenge for review. In the real world, when a developer finishes working on a project, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met. For each Challenge, your instructional staff will serve as your team of reviewers.
+* **Submission**: You'll submit your completed Challenge for review. In the real world, when a developer finishes working on a project, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance crite.
 
 ## Your Task
 
@@ -76,83 +74,3 @@ The following image shows the web application's appearance and functionality:
 
 > **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
 
-## Getting Started
-
-Follow these instructions to create your project and deploy it to GitHub Pages:
-
-1. Create a new repository on your GitHub account and clone it to your computer.
-
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
-
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
-
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
-
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
-
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
-
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
-
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles mock-up provided in the Challenge instructions (at least 90%).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
