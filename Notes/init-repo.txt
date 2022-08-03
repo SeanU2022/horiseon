@@ -32,3 +32,8 @@ seanus ➜  02-Challenge git:(main) ✗>
 git push -u origin main
 
 
+DEPLOY git add -A or git add <file> will update Git for a new file/edit/delete
+DEPLOY git commit -m to STAGE
+DEPLOY git push
+DEPLOY once the repo-settings-pages-Build and deployment is DONE all pushes go live with git push
+DEPLOY eg https://seanu2022.github.io/horiseon/ 
