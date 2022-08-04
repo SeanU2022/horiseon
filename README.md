@@ -35,7 +35,7 @@ The marketing agency Horiseon wants a codebase that follows accessibility standa
 - Main sectioned to Hero, Content, Benefits 
 - alt attributes added to img elements for accessibility
 - CSS consolidated by about 50%
-- HTML and CSS comments added 
+- CSS (with comments) follows HTML structure 
 
 ## Mock-Up
 
