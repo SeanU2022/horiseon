@@ -18,26 +18,24 @@ The marketing agency Horiseon wants a codebase that follows accessibility standa
 
 
 ## Acceptance Criteria
+* The HTML elements follows a logical structure which is independent of styling and positioning
+* The heading attributes are in sequential order.
+* With comments CSS follows the structure of HTML
 
-The webpage meets accessibility standards:-
-The title element is concise and descriptive.
-The HTML elements are semantic.
-The HTML elements follows a logical structure which is 
-independent of styling and positioning
-The heading attributes are in sequential order.
-Alt attributes included in image elements.
+* The webpage meets accessibility standards:-
+  - The title element is concise and descriptive.
+  - The HTML elements are semantic.
+  - Alt attributes included in image elements.
 
 ## Modifications Completed
-Title added
-HTML refactored semantically
-HTML structure: Header, Main, Footer
-Header is Nav, URL
-Main sectioned to Hero, Content, Benefits 
-alt attributes added to img elements for accessibility
-CSS consolidated by about 50%
-HTML and CSS comments added 
-
-
+- Title added
+- HTML refactored semantically
+- HTML structure: Header, Main, Footer
+- Header is Nav, URL
+- Main sectioned to Hero, Content, Benefits 
+- alt attributes added to img elements for accessibility
+- CSS consolidated by about 50%
+- HTML and CSS comments added 
 
 ## Mock-Up
 
